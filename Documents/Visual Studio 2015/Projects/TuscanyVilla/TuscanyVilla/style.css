@@ -1,0 +1,90 @@
+﻿body {
+    background-color: #fff;
+    background-image:url(images/Versilia.jpg);
+}
+footer{
+    font-family: 'Shrikhand', cursive; color:black;
+}
+/* Remove the jumbotron's default bottom margin */
+.jumbotron {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-family: 'Shrikhand', cursive;
+    color: black;
+    text-align: center;
+    background-image: url('images/Versilia.jpg');
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar{
+    margin:0px;
+    padding:0px;
+}
+
+li {
+    float:left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: turquoise;
+    width:100%;
+}
+.glyphicon{
+    color:turquoise;
+}
+
+li a:hover {
+    background-color: turquoise;
+    width:100%;
+}
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+div {
+  font-size: 0;
+}
+
+a {
+  font-size: 16px; 
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
+  margin-right: 8px;
+}
+
+a:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 50em) {
+  a {
+    width: calc(25% - 6px);
+  }
+
+  a:nth-of-type(2n) {
+    margin-right: 8px;
+  }
+
+  a:nth-of-type(4n) {
+    margin-right: 0;
+  }
+}
+
+
+
